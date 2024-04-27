@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <locale.h>
+int main () {
+    int valor;
+      printf("Escolha um numero de 1 a 5\n");
+  scanf("%d", &valor);
+  switch (valor) {
+      case 1:
+      printf("Você selecionou um numero dentro dos parametros\n");
+      break;
+      
+       case 2:
+      printf("Você selecionou um numero dentro dos parametros\n");
+      break;
+      
+       case 3:
+      printf("Você selecionou um numero dentro dos parametros\n");
+      break;
+      
+      case 4:
+      printf("Você selecionou um numero dentro dos parametros\n");
+      break;
+      
+      case 5:
+      printf("Você selecionou um numero dentro dos parametros\n");
+      break;
+     
+     default:
+     printf("Não é possivel adicionar esse valor\n");
+  }
+  return 0;
+}
